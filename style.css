@@ -52,7 +52,7 @@ h1 {
 
 }
 
-.card-wrapper {
+#cwrapper {
     display: flex;
     flex-direction:column;
     align-items: center;    
