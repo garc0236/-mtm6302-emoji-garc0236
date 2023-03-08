@@ -47,24 +47,33 @@ table {
 	border-spacing: 0;
 }
 
+
 h1 {
     font-size: 50px;
+	text-align: center;
+	margin: 30px;
 
 }
 
-#cwrapper {
-    display: flex;
-    flex-direction:column;
-    align-items: center;    
+.cwrapper {
+	display:flex;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin: 60px;		
 }
+
 
 .emoji {
-    font-size:45px;
-    margin: 10px;
+    font-size:35px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border:1px solid grey;		
 }
 
 .ref {
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 4px;
-    font-weight:bold;
+    font-size: medium;
+	padding: 5px;
+	margin: 10px	
 }
